@@ -23,8 +23,8 @@ def get_user_admin():
 if __name__ == '__main__':
     """ ПРИЛОЖЕНИЕ """
 
-    ip = '127.0.0.1'
-    port = 8050
+    ip = '127.0.0.1'  # IP адрес приложения
+    port = 8050       # Port приложения
 
     CORS(app)
     app.run(debug=False, port=port, host=ip)
